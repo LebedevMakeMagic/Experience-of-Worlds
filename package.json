@@ -1,0 +1,56 @@
+{
+  "name": "WitcherWorld",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-three/drei": "^9.57.0",
+    "@react-three/fiber": "^8.11.8",
+    "@react-three/rapier": "^0.8.2",
+    "@theatre/core": "^0.5.1",
+    "@theatre/r3f": "^0.5.1",
+    "@theatre/studio": "^0.5.1",
+    "maath": "^0.10.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.7.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint:ts:fix": "eslint \"**/*.{js,jsx}\" --fix",
+    "prettier": "prettier --write ./src"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "gltfjsx": "^6.2.15",
+    "prettier": "3.1.0",
+    "prettier-plugin-organize-imports": "^3.2.4"
+  }
+}

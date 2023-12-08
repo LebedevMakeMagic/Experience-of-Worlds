@@ -1,0 +1,136 @@
+{
+  "sheetsById": {
+    "Demo Sheet": {
+      "staticOverrides": {
+        "byObject": {
+          "123": {
+            "position": {
+              "x": -14.060086140974018,
+              "y": 9.79172042586337,
+              "z": 4.753913880283631
+            },
+            "rotation": {
+              "x": -4.220000000000001,
+              "y": -8.599999999999996,
+              "z": -1.1500000000000006
+            }
+          },
+          "Camera": {
+            "position": {
+              "x": 46.59496784969895,
+              "y": 15.049579819183347,
+              "z": -162.52414921748831
+            },
+            "rotation": {
+              "y": -1.5600000000000005
+            }
+          },
+          "WitcherMedalion": {
+            "position": {
+              "x": 0.002357972948212137,
+              "y": -0.17361136710256414,
+              "z": 0.1954286347306651
+            },
+            "scale": {
+              "x": 0.4,
+              "y": 0.4,
+              "z": 0.4
+            },
+            "rotation": {
+              "y": -1.570000000000001
+            }
+          },
+          "OrbitPrewiev": {
+            "position": {
+              "x": -96.16290314374335,
+              "y": -104.06525902549029,
+              "z": 22.750098538205464
+            },
+            "scale": {
+              "x": 1.0299999999999996
+            },
+            "rotation": {
+              "y": -0.6000000000000001
+            }
+          },
+          "WitcherPointLight": {
+            "position": {
+              "x": 2.088480005044251,
+              "y": 1.7548918724612492,
+              "z": -1.8047529981879262
+            }
+          },
+          "WitcherPointLight1": {
+            "position": {
+              "x": 0.6935346380010241,
+              "y": 0.6692451583464425,
+              "z": -0.3268002309135577
+            }
+          },
+          "directional": {
+            "position": {
+              "x": -0.29475481031028083,
+              "y": 2.462032270490198,
+              "z": -0.4188486870531729
+            },
+            "scale": {
+              "x": 1.2092157165818502,
+              "y": 1.2092157165818502,
+              "z": 1.2092157165818502
+            },
+            "rotation": {
+              "x": 0.7131997075284074,
+              "y": -0.12184424606496999,
+              "z": 0.5382166110936006
+            }
+          },
+          "point": {
+            "position": {
+              "x": 123.33149944708417,
+              "y": -92.14370201194819,
+              "z": -98.29329372957426
+            }
+          },
+          "CameraWitcher": {
+            "rotation": {
+              "y": -3.9999999999999942
+            }
+          }
+        }
+      },
+      "sequence": {
+        "subUnitsPerUnit": 30,
+        "length": 10,
+        "type": "PositionalSequence",
+        "tracksByObject": {
+          "Camera": {
+            "trackData": {
+              "pwhd3RwI3l": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Camera:[\"rotation\",\"x\"]",
+                "keyframes": []
+              },
+              "MSjeHKzgF6": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Camera:[\"rotation\",\"y\"]",
+                "keyframes": []
+              },
+              "S8rcAGnc9F": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Camera:[\"rotation\",\"z\"]",
+                "keyframes": []
+              }
+            },
+            "trackIdByPropPath": {
+              "[\"rotation\",\"x\"]": "pwhd3RwI3l",
+              "[\"rotation\",\"y\"]": "MSjeHKzgF6",
+              "[\"rotation\",\"z\"]": "S8rcAGnc9F"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitionVersion": "0.4.0",
+  "revisionHistory": ["V5pBO5kAklSnQTID", "rdU71Kq7HG0BWVar"]
+}

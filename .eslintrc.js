@@ -1,0 +1,61 @@
+module.exports = {
+  env: {
+    browser: true,
+    es2021: true,
+    jest: true,
+  },
+  extends: ['plugin:react/recommended', 'airbnb', 'prettier'],
+  overrides: [
+    {
+      env: {
+        node: true,
+      },
+      files: ['.eslintrc.{js,cjs}'],
+      parserOptions: {
+        sourceType: 'script',
+      },
+    },
+  ],
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+  },
+  plugins: ['react', '@typescript-eslint', 'react-hooks'],
+  rules: {
+    'react/jsx-filename-extension': [
+      2,
+      { extensions: ['.js', '.jsx', '.tsx'] },
+    ],
+    'no-use-before-define': 'off',
+    'react/prop-types': 'off',
+    'react/no-unknown-property': 'off',
+    'import/no-unresolved': 'off',
+    'import/prefer-default-export': 'off',
+    'no-plusplus': 'off',
+    'react/require-default-props': 'off',
+    'react/react-in-jsx-scope': 'off',
+    'react/jsx-props-no-spreading': 'off',
+    'react/function-component-definition': 'off',
+    'no-shadow': 'off',
+    'import/extensions': 'off',
+    'import/no-extraneous-dependencies': 'off',
+    'no-underscore-dangle': 'off',
+    'linebreak-style': 0,
+    semi: ['warn', 'never'],
+    'no-console': 'off',
+    'arrow-parens': [2, 'as-needed', { requireForBlockBody: true }],
+    'arrow-body-style': 'off',
+    'no-undef': 'off',
+    'max-len': ['error', { ignoreComments: true, code: 130 }],
+    'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks
+    'react-hooks/exhaustive-deps': 'error', // Checks effect dependencies,
+    'jsx-a11y/no-static-element-interactions': 'off',
+    'jsx-a11y/click-events-have-key-events': 'off',
+    'no-param-reassign': 'off',
+    'react/no-array-index-key': 'off',
+    'react/jsx-closing-bracket-location': 'off',
+    'react/jsx-max-props-per-line': ['error', { maximum: 5 }],
+    'react/no-unstable-nested-components': 'warn',
+    'react/destructuring-assignment': 'off',
+  },
+}
