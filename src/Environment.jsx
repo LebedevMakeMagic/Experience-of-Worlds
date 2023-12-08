@@ -1,16 +1,10 @@
-import {
-  Cloud,
-  Clouds,
-  Environment as EnvironmentDREI,
-  Sky,
-} from '@react-three/drei'
+import { Cloud, Clouds, Sky } from '@react-three/drei'
 import React from 'react'
 import * as THREE from 'three'
 
 const EnvironmentWorld = () => {
   return (
     <group>
-      <EnvironmentDREI preset="sunset" />
       <Sky sunPosition={[50, 70, 0]} rayleigh={0.0001} />
       <Clouds material={THREE.MeshBasicMaterial}>
         <Cloud

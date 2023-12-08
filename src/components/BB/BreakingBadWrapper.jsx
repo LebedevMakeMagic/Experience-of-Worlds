@@ -50,6 +50,7 @@ const BreakingBadWrapper = (props) => {
             fov={75}
           />
         )}
+
         <Environment preset="sunset" />
 
         <Physics gravity={[0, -30, 0]}>
